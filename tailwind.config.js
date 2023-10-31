@@ -18,12 +18,14 @@ export default {
           '100%': { transform: 'translateX(calc(100% + 100vw)) rotateY(180deg)' }
         },
        slideOutDown: {
-        '0%': { transform: 'translateY(-100%) ' },
+        '0%': { transform: 'translateY(calc(-100% - 100vh))' },
+        '100%': { transform: 'translateY(calc(100% + 100vh)) '},
+        
         },
       },
       animation: {
         wiggle: 'wiggle 15s infinite',
-        slideOutDown: 'slideOutDown 8s linear(-0.38 71.32%, 1 100%) infinite'
+        slideOutDown: 'slideOutDown 15s linear(-0.38 71.32%, 1 100%) infinite'
       }
     },
   },

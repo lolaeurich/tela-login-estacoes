@@ -16,14 +16,14 @@ function App() {
         <div className='relative flex justify-center items-center w-[100%] h-[100vh] overflow-x-hidden'>
           <div className="absolute w-[100%] h-[100vh] overflow-hidden flex content-center items-center z-[1] pl-[50%]">
             <div className="absolute block inset-0 pointer-events-none w-[100%] h-[100%] top-0 left-0">
-                <div className="relative left-[20%] animate-slideOutDown"><img src={leaf1} alt=""></img></div>
+                <div className="relative left-[20%] animate-[slideOutDown_5s_linear_infinite]"><img src={leaf1} alt=""></img></div>
                 <div className="relativeleft-[20%] animate-slideOutDown"><img src={leaf2}></img></div>
-                <div className="relative left-[70%] animate-slideOutDown"><img src={leaf3}></img></div>
-                <div className="relative left-[70%] animate-slideOutDown"><img src={leaf4}></img></div>
-                <div className="relative left-[10%] animate-slideOutDown"><img src={leaf1}></img></div>
-                <div className="relative left-[45%] animate-slideOutDown"><img src={leaf2}></img></div>
-                <div className="relative left-[90%] animate-slideOutDown"><img src={leaf3}></img></div>
-                <div className="relative left-[75%] animate-slideOutDown"><img src={leaf4}></img></div>
+                <div className="relative left-[70%] animate-[slideOutDown_6s_linear_infinite]"><img src={leaf3}></img></div>
+                <div className="relative left-[70%] animate-[slideOutDown_7s_linear_infinite]"><img src={leaf4}></img></div>
+                <div className="relative left-[10%] animate-[slideOutDown_8s_linear_infinite]"><img src={leaf1}></img></div>
+                <div className="relative left-[45%] animate-[slideOutDown_9s_linear_infinite]"><img src={leaf2}></img></div>
+                <div className="relative left-[90%] animate-[slideOutDown_2s_linear_infinite]"><img src={leaf3}></img></div>
+                <div className="relative left-[75%] animate-[slideOutDown_4s_linear_infinite]"><img src={leaf4}></img></div>
             </div>
           </div>
           <img src={bike} alt="" className="absolute top-0 left-0 w-[100%] h-[100%] object-cover"></img>
