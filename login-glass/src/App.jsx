@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
     <div className="">
-      {/*<Fall />*/}
+      
       <Winter />
     </div>
     </>
