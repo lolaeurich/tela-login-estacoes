@@ -1,8 +1,7 @@
-# React + Vite
+Tela de login feita em React e utilizando Tailwind.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A ideia aqui é treinar um pouco de "glassmorphism", um estilo de design que apresenta efeitos semelhantes ao vidro. Ou seja, os elementos possuem aparência translúcida, com um resultado acentuado quando sobrepostos a fundos coloridos.
+
+🖥 live: https://lnkd.in/dA3Wp7Ra
