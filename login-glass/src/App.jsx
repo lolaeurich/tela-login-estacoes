@@ -6,8 +6,8 @@ const App = () => {
   return (
     <>
     <div className="">
-      
       <Winter />
+      {/*<Fall />*/}
     </div>
     </>
   );
