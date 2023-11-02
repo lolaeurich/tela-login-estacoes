@@ -13,7 +13,7 @@ function Fall() {
       <div className='relative flex justify-center items-center w-[100%] h-[100vh] overflow-x-hidden'>
         <div className='absolute w-[100%] h-[100vh] overflow-hidden flex content-center items-center z-10 pl-[50%]'>
           <div className='absolute block inset-0 pointer-events-none w-[100%] h-[100%] top-0 left-0'>
-              <div><img src={leaf1} alt="" className='relative left-[20%] animate-[slideOutDown2_6s_linear_infinite]'></img></div>
+              <div><img src={leaf1} alt="" className='relative  left-[20%] animate-[slideOutDown2_6s_linear_infinite]'></img></div>
               <div><img src={leaf2} alt="" className='relative left-[20%] animate-[slideOutDown2_7s_linear_infinite]'></img></div>
               <div><img src={leaf3} alt="" className='relative left-[70%] animate-[slideOutDown2_10s_linear_infinite]'></img></div>
               <div><img src={leaf4} alt="" className='relative left-[70%] animate-[slideOutDown2_4s_linear_infinite]'></img></div>
