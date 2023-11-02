@@ -9,7 +9,7 @@ export default {
       colors: {
         'bg-rgba': 'rgba(255, 255, 255, 0.25)',
         'border':  'rgba(255, 255, 255, 0.5)',
-      },
+      }, 
       keyframes: {
         wiggle: {
           '0%': {transform: 'translateX(calc(100% + 100vw))'},
