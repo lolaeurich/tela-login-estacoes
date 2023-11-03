@@ -12,7 +12,7 @@ const App = () => {
       {/*<Fall />
       <Spring />*/}
      {/*} <Fall />*/}
-     <Fall />
+     <Summer />
     </div>
     </>
   );
