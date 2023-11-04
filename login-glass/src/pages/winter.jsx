@@ -4,6 +4,8 @@ import trees from "../assets/treessnow.png"
 import snow1 from "../assets/snow1.png"
 import snow2 from "../assets/snow2.png"
 
+import {Link} from "react-router-dom"
+
 function Winter () {
     return (
         <div className='relative flex justify-center items-center w-[100%] h-[100vh] overflow-x-hidden'>
@@ -26,6 +28,7 @@ function Winter () {
         </div>
         <img src={winterbg} alt="" className='absolute top-0 left-0 w-[100%] h-[100%] object-cover'></img>
         <img src={girlwinter} alt="" className='absolute animate-wiggle2 pb-10 h-[100%]'></img>
+        <Link to="/spring"> <button className="fixed h-[5%] w-[5%] rounded-full bg-purple-500 right-12 bottom-[60%] text-black font-bold text-lg cursor-pointer duration-200 z-50 hover:bg-purple-200" type="buttom">Mudar &#10140;</button></Link>
         <div className='relative p-[60px] bg-bg-rgba backdrop-blur-[15px] border-solid border-x-white border-[1px]
         border-b-[1px] border-b-solid border-b-border
         border-r-solid border-r-[1px] border-r-border

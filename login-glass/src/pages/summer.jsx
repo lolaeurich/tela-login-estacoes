@@ -3,11 +3,13 @@ import surf from "../assets/11.png"
 import beach2 from "../assets/9.png"
 import sun from "../assets/sun.png" 
 
+import {Link} from "react-router-dom"
+
 function Summer() {
 
   return (
     <>
-      <div className='relatove flex justify-center items-center w-[100%] h-[100vh] overflow-x-hidden'>
+      <div className='relative flex justify-center items-center w-[100%] h-[100vh] overflow-x-hidden'>
         <div className='absolute w-[100%] h-[100vh] overflow-hidden flex content-center items-center z-[1] pl-[50%]'>
           <div className='absolute block inset-0 pointer-events-none w-[100%] h-[100%] top-0 left-0'>
               <div><img src={""} alt="" className='relative left-[20%] animate-slideOutDown'></img></div>
@@ -20,9 +22,12 @@ function Summer() {
               <div><img src={""} alt="" className='relative left-[75%] animate-slideOutDown'></img></div>
           </div>
         </div>
+        <div>
         <img src={beach} alt="" className='absolute top-0 left-0 w-[100%] h-[100%] object-cover'></img>
+        </div>
         <img src={surf} alt="" className='fixed animate-wiggle pb-20 h-[60%]'></img>
         <img src={sun} alt="" className='absolute animate-pulse right-4 top-[-10%] h-[60%] w-[30%]'></img>
+        <Link to="/spring"> <button className="fixed h-[5%] w-[5%] rounded-full bg-blue-500 right-12 bottom-[60%] text-black font-bold text-lg cursor-pointer duration-200 z-50 hover:bg-blue-200" type="buttom">Mudar &#10140;</button></Link>
         <div className='relative p-[60px] bg-bg-rgba backdrop-blur-[15px] border-solid border-x-white border-[1px]
         border-b-[1px] border-b-solid border-b-border
         border-r-solid border-r-[1px] border-r-border

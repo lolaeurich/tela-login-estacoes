@@ -6,6 +6,8 @@ import flower2 from "../assets/flower2.png"
 import flower3 from "../assets/flower3.png"
 import flower4 from "../assets/flower4.png"
 
+import {Link} from "react-router-dom"
+
 
 function Spring () {
     return (
@@ -29,6 +31,7 @@ function Spring () {
         </div>
         <img src={spring} alt="" className='absolute top-0 left-0 w-[100%] h-[100%] object-cover'></img>
         <img src={girl} alt="" className='absolute animate-wiggle2 pb-10 h-[72%]'></img>
+        <Link to="/winter"> <button className="fixed h-[5%] w-[5%] rounded-full bg-pink-500 right-12 bottom-[60%] text-black font-bold text-lg cursor-pointer duration-200 z-50 hover:bg-pink-200" type="buttom">Mudar &#10140;</button></Link>
         
         <div className='relative p-[60px] bg-bg-rgba backdrop-blur-[15px] border-solid border-x-white border-[1px]
         border-b-[1px] border-b-solid border-b-border
