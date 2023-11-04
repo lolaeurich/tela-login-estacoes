@@ -4,7 +4,7 @@ import trees from "../assets/treessnow.png"
 import snow1 from "../assets/snow1.png"
 import snow2 from "../assets/snow2.png"
 
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom" 
 
 function Winter () {
     return (
