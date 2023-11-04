@@ -1,8 +1,11 @@
-# React + Vite
+Tela de login feita em React e utilizando Tailwind.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A ideia aqui é treinar um pouco de "glassmorphism", um estilo de design que apresenta efeitos semelhantes ao vidro. Ou seja, os elementos possuem aparência translúcida, com um resultado acentuado quando sobrepostos a fundos coloridos.
 
-Currently, two official plugins are available:
+obs: as animações foram feitas usando apenas CSS (transform/translate e animate).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+obs²: para as imagens PNG você pode utilizar o Canva. Lá, além de ser possível usar elementos da pŕopria biblioteca deles, você ainda consegue subir uma imagem e apagar/retirar o fundo (não se esqueça de importar como "background transparent".
+
+O projeto foi inspirado em um vídeo do YouTube que vi alguns meses atrás, mas foi adaptado para React e Tailwind. Além disso, no repositório você pode encontrar outras 3 telas, uma para cada estação do ano.
+
+🖥 live: https://lnkd.in/dauSy9NB (basta clicar no botão de "MUDAR" no canto direito da tela para ver todas as telas)
