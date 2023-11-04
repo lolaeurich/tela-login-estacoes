@@ -8,5 +8,4 @@ obs²: para as imagens PNG você pode utilizar o Canva. Lá, além de ser possí
 
 O projeto foi inspirado em um vídeo do YouTube que vi alguns meses atrás, mas foi adaptado para React e Tailwind. Além disso, no repositório você pode encontrar outras 3 telas, uma para cada estação do ano.
 
-👩‍💻 código: https://lnkd.in/dhq59eSV (não esquece de dar uma ⭐)
 🖥 live: https://lnkd.in/dg3pWDPN (basta clicar no botão de "MUDAR" no canto direito da tela para ver todas as telas)
